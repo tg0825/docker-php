@@ -9,6 +9,7 @@
 <body>
 <?php 
 echo 'hello php';
+var_dump(getenv('ENV'));
 ?>
 </body>
 </html>
