@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    php-example:
+        build: .
+        volumes:
+            - "./www/html:/var/www/html"
+        ports:
+            - "80:80"
+
